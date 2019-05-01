@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Analyzing You</title>
+</head>
+
+
+<body>
+    <header>
+        <img id="logo" src="logo.png">
+        <h1>Analyzing For You</h1>
+    </header>
+    <h2>To Understand Emotion Better</h2>
+    <div class="info">
+        <p id="info">Analyzing for you is a helping tool to convert the speech to text and give you the emotion from it</p>
+    </div>
+    <div class="audio">
+        <input type="file" id="choose-button"></input>
+        <p id="audio-name"></p>
+        <button id="convert-button">convert</button>
+    </div>
+    <div class="restart">
+        <button id="restart">Restart</button>
+        <button id="newfile">New File</button>
+        <button id="stahp">stahp File</button>
+
+    </div>
+    <div class="speech">
+        <p id="speech">The File Speech</p>
+        <div class="converted-speech">
+            <p></p>
+        </div>
+        <div class="analyze-container">
+            <p id="analyze-container">the Feelings</p>
+            <div class="analyze">
+                <p id="analyze">
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
