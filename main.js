@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
     let recorder = RecordRTC(MediaStream || HTMLElement, {});
-    var text = ' fuck off  ';
+    var text;
 
     function speechToText() {
         $.ajax({
