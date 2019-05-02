@@ -35,7 +35,7 @@ $(document).ready(function() {
                 $('#converted-speech').text('There some error in the file')
             },
             beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Basic " + btoa('apikey:T5S_NZTysSFt8OYEkVGKAe0mnZ0ru0D2bEx8T1AJ8god'))
+                xhr.setRequestHeader("Authorization", "Basic " + btoa('apikey:{YOUR API KEY}'))
             }
 
         })
@@ -68,7 +68,7 @@ $(document).ready(function() {
 
             },
             beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Basic " + btoa('apikey:UppglsL0bxX_hVoqW9wuOYXAr6ZIj54yLpqMZKBidA0s'))
+                xhr.setRequestHeader("Authorization", "Basic " + btoa('apikey:{YOUR API KEY}'))
             }
         })
     }
